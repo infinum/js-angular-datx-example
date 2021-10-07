@@ -1,27 +1,26 @@
-# JsAngularDatxExample
+# DatX in Angular example project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.1.
+This project demonstrates how to use [DatX 2](https://datx.dev/) in [Angular](https://angular.io/).
+
+## Required steps
+
+1. Add `@datx/core`, `@datx/jsonapi`, `@datx/jsonapi-angular` and `mobx`.
+2. In `src/main.ts` import `@datx/core/disable-mobx`.
+3. Implement a custom fetch function. Have a look at `src/app/services/custom-fetch`.
+4. Configure DatX to use the custom fetch function. Have a look at `helpers/init-datx`. Add other configuration parameters as well.
+5. Collections, models and services can now be created. Have a look at `src/app/collections` and `src/app/models`.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `npm run dev` for a dev server. This will run both the Angular application as well as a fake [JSON:API](https://jsonapi.org/) server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## License
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+The [MIT License](LICENSE)
 
-## Build
+## Credits
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+This project is maintained and sponsored by
+[Infinum](https://www.infinum.com).
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<img src="https://infinum.com/infinum.png" width="264">
