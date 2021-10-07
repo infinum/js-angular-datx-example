@@ -8,7 +8,8 @@ This project demonstrates how to use [DatX 2](https://datx.dev/) in [Angular](ht
 2. In `src/main.ts` import `@datx/core/disable-mobx`.
 3. Implement a custom fetch function. Have a look at `src/app/services/custom-fetch`.
 4. Configure DatX to use the custom fetch function. Have a look at `helpers/init-datx`. Add other configuration parameters as well.
-5. Collections, models and services can now be created. Have a look at `src/app/collections` and `src/app/models`.
+5. Collections and models can now be created. Have a look at `src/app/collections` and `src/app/models`.
+6. `src/app/services/artists` demonstrates how to make a service around DatX methods for fetching and sending data.
 
 ## Development server
 
