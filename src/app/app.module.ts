@@ -7,7 +7,7 @@ import { AppCollection } from './collections/app.collection';
 import { ArtistsModule } from './components/artists/artists.module';
 import { initDatx } from './helpers/init-datx/init-datx.helper';
 import { APP_COLLECTION } from './injection-tokens';
-import { CustomFetchService } from './services/custom-feetch/custom-fetch.service';
+import { CustomFetchService } from './services/custom-fetch/custom-fetch.service';
 
 @NgModule({
 	declarations: [AppComponent],

@@ -1,6 +1,6 @@
 import { CachingStrategy, config } from '@datx/jsonapi';
 import { FetchType } from '@datx/jsonapi/dist/NetworkUtils';
-import { CustomFetchService } from '../../services/custom-feetch/custom-fetch.service';
+import { CustomFetchService } from '../../services/custom-fetch/custom-fetch.service';
 
 export function initDatx(customFetch: CustomFetchService): () => Promise<void> {
 	return async () => {

@@ -12,15 +12,18 @@ new Server({
 						name: 'Metallica',
 					},
 				},
-			],
-		},
-		book: {
-			data: [
 				{
-					type: 'book',
-					id: 1,
+					id: 2,
+					type: 'artist',
 					attributes: {
-						title: 'A whole new world',
+						name: 'Iron Maiden',
+					},
+				},
+				{
+					id: 3,
+					type: 'artist',
+					attributes: {
+						name: 'Dream Theater',
 					},
 				},
 			],
