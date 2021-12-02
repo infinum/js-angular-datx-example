@@ -1,7 +1,7 @@
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { DatxModule, DATX_CONFIG } from '@datx/jsonapi-angular';
+import { DatxModule } from '@datx/jsonapi-angular';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AppCollection } from './collections/app.collection';
@@ -20,10 +20,6 @@ import { APP_COLLECTION } from './injection-tokens';
 		ArtistsModule,
 	],
 	providers: [
-		{
-			provide: DATX_CONFIG,
-			useValue: {},
-		},
 		{
 			provide: APP_COLLECTION,
 			useValue: new AppCollection(),
