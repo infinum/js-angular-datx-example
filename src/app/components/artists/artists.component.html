@@ -2,6 +2,7 @@
 
 <ul>
 	<li *ngFor="let artist of artists$ | async">
-		{{ artist.name }}
+		{{ artist.$.name | async }}
 	</li>
 </ul>
+<button (click)="updateNames()">updateNames</button>
