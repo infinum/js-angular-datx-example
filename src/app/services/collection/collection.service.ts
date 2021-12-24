@@ -52,7 +52,6 @@ export abstract class CollectionService<TModel extends IJsonapiModel> {
 	}
 
 	public getAllModels(options?: IRequestOptions, pageSize: number = this.maxPageSize): Observable<Array<TModel>> {
-		console.log('get');
 		return this.getMany({
 			...options,
 			queryParams: {
