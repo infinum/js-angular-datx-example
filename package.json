@@ -23,6 +23,7 @@
 		"@datx/core": "^2.2.3",
 		"@datx/jsonapi": "^2.2.3",
 		"@datx/jsonapi-angular": "file:datx-jsonapi-angular-next.tgz",
+		"datx": "github:infinum/datx#add-angular-module-and-collection-service",
 		"rxjs": "~6.6.0",
 		"tslib": "^2.1.0",
 		"zone.js": "~0.11.4"
