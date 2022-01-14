@@ -20,9 +20,9 @@
 		"@angular/platform-browser": "~12.2.9",
 		"@angular/platform-browser-dynamic": "~12.2.9",
 		"@angular/router": "~12.2.9",
-		"@datx/core": "^2.2.3",
-		"@datx/jsonapi": "^2.2.3",
-		"@datx/jsonapi-angular": "file:datx-jsonapi-angular.tgz",
+		"@datx/core": "^2.4.0",
+		"@datx/jsonapi": "^2.4.0",
+		"@datx/jsonapi-angular": "^2.4.2",
 		"rxjs": "~6.6.0",
 		"tslib": "^2.1.0",
 		"zone.js": "~0.11.4"
