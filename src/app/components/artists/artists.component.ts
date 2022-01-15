@@ -11,4 +11,10 @@ export class ArtistsComponent {
 	public artists$ = this.artistsService.getAllModels();
 
 	constructor(private readonly artistsService: ArtistsService) {}
+
+	public updateNames() {
+		this.artistsService.findAll().forEach((artist, index) => {
+			artist.name += index;
+		});
+	}
 }
